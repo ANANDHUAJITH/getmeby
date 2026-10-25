@@ -1,4 +1,4 @@
-# howsapp
+# GetMeBy
 
 A peer-to-peer terminal messaging program written in Python. No servers, no accounts. Each peer runs the script directly and communicates over TCP using GetMe IDs instead of raw IP addresses and ports.
 
