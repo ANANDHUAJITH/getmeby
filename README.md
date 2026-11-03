@@ -14,7 +14,7 @@ A peer-to-peer terminal messaging program written in Python. No servers, no acco
 ## Running
 
 ```
-python3 howsapp.py --getmeby <your_name> -p <port>
+python3 peer.py --getmeby <your_name> -p <port>
 ```
 
 | Argument | Default | Description |
