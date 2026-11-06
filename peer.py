@@ -8,8 +8,8 @@ from datetime import datetime
 
 lock = threading.Lock()
 
-# All data files sit next to the script, inside a "howsapp_data/" subfolder.
-_BASE_DIR     = os.path.join(os.path.dirname(os.path.abspath(__file__)), "howsapp_data")
+
+_BASE_DIR     = os.path.join(os.path.dirname(os.path.abspath(__file__)), "getmeby")
 CONTACTS_FILE = os.path.join(_BASE_DIR, "contacts.json")
 GROUPS_FILE   = os.path.join(_BASE_DIR, "groups.json")
 CHAT_FILE     = os.path.join(_BASE_DIR, "chat.json")
